@@ -3,8 +3,6 @@
 	<head>
 		<meta charset="utf-8" />
 
-		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
-		Remove this if you use the .htaccess -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 		<title>HTML</title>
@@ -13,34 +11,92 @@
 
 		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
 
-		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
-		<link rel="shortcut icon" href="/favicon.ico" />
-		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+		<link href='http://fonts.googleapis.com/css?family=Sintony' rel='stylesheet' type='text/css'>
+		<link href="Lib/CSS/reset.css" rel="stylesheet"/>
+		<link href="Lib/CSS/Base.css" rel="stylesheet"/>
+		<link href="Lib/CSS/bootstrap.css" rel="stylesheet"/>
+		<!-- Move Me -->
+
 	</head>
-
 	<body>
-		<div>
-			<header>
-				<h1>HTML</h1>
-			</header>
-			<nav>
-				<p>
-					<a href="/">Home</a>
-				</p>
-				<p>
-					<a href="/contact">Contact</a>
-				</p>
-			</nav>
-
-			<div>
+		<header>
+			<div class="jumbotron">
+				<ul class="navbar">
+					<li class="active">
+						<a>Home</a>
+					</li>
+					<li>
+						<a>Projects</a>
+					</li>
+					<li>
+						<a><img src="Lib/Logo.png" /></a>
+					</li>
+					<li>
+						<a>About Me</a>
+					</li>
+					<li>
+						<a>Contact</a>
+					</li>
+				</ul>
 
 			</div>
+		</header>
+		<!--<canvas  id="CodeCanvas">
 
-			<footer>
-				<p>
-					&copy; Copyright  by Boondoggle
-				</p>
-			</footer>
+		</canvas> -->
+		<div class="background fill">
+			<div class="container">
+				<div class="row">
+					<div class="center">
+						<br>
+						<br>
+						<div  class="col-lg-6">
+							<div id="LeftCard">
+								<h3>Some Things I Find Fun</h3>
+
+								<hr>
+						
+								<img height="205" width="225"  src="Lib/handsonlaptop.png"/>
+									<br>
+								<br>
+								<p style="margin: 15px;">
+									Lorem ipsum dolor sit amet, consectetur adi id vestibulum leo aliquet eget.
+									Quisque aliquet justo eget libero mattis, nec bibendum elit ornare.
+									Vestibulum sit amet leo lectus. Proin non rutrum diam. Pellentesque accumsan libero ac
+									turpis facilisis porta non consequat lacus.
+								</p>
+								<br>
+								<br>
+							</div>
+						</div>
+						<div  class="col-lg-6">
+							<div id="RightCard">
+								<h3>About Me</h3>
+
+								<hr>
+								
+								<img height="205" width="225" src="Lib/LaptopCircle.png"/>
+								<br>
+								<br>
+								<p style="margin: 15px;">
+									Lorem ipsum dolor sit amet, consectetur adi id vestibulum leo aliquet eget.
+									Quisque aliquet justo eget libero mattis, nec bibendum elit ornare.
+									Vestibulum sit amet leo lectus. Proin non rutrum diam. Pellentesque accumsan libero ac
+									turpis facilisis porta non consequat lacus.
+								</p>
+								<br>
+								<br>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
 		</div>
+		<!-- Late Load Scripts -->
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src="Lib/JS/bootstrap.js"></script>
+		<script src="Lib/JS/base.js"></script>
+		<!--<script src="Lib/JS/canvas.js"></script> -->
 	</body>
 </html>
