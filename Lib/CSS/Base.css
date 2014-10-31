@@ -58,13 +58,14 @@ canvas{
 .center{
 	text-align:  center;
 	}
-#LeftCard{
-	
+
+
+#card{
 	height:400px;
-	
 }
-#RightCard{
-	height:400px;
+
+#card a{
+	color:#333333;
 }
 /*
 #LeftCard:hover{
