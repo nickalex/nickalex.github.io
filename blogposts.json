@@ -1,0 +1,14 @@
+﻿{
+    "posts": [
+        {
+            "title": "Test Title",
+            "leadText": "Bacon ipsum dolor amet corned beef capicola tongue pig, swine biltong meatball pork belly flank. Ribeye pork belly drumstick pork loin corned beef sirloin pig. Landjaeger shank turkey kielbasa sirloin, rump boudin prosciutto t-bone venison spare ribs. Ham corned beef pastrami beef bresaola andouille salami.",
+            "date": "1415424702298"
+        },
+        {
+            "title": "Another Gripping Title",
+            "leadText": "Bacon ipsum dolor amet corned beef capicola tongue pig, swine biltong meatball pork belly flank. Ribeye pork belly drumstick pork loin corned beef sirloin pig. Landjaeger shank turkey kielbasa sirloin, rump boudin prosciutto t-bone venison spare ribs. Ham corned beef pastrami beef bresaola andouille salami.",
+            "date": "1415424702298"
+        }
+    ]
+}
