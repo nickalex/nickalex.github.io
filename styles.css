@@ -206,7 +206,8 @@ h1 {
 .bio,
 .section-intro,
 .earlier p,
-.role p {
+.role p,
+.role-points li {
   text-wrap: pretty;
 }
 
@@ -386,6 +387,29 @@ h2 {
 .role p:last-child {
   margin: 0.35rem 0 0;
   color: var(--muted);
+}
+
+.role-points {
+  margin: 0.75rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.role-points li {
+  position: relative;
+  margin: 0.45rem 0 0;
+  padding-left: 0.95rem;
+  color: var(--muted);
+}
+
+.role-points li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.68em;
+  width: 0.4rem;
+  height: 1px;
+  background: var(--accent);
 }
 
 .earlier {

@@ -1,6 +1,6 @@
 # alexandr.es
 
-Personal site for Nicholas Alexandres. Static HTML and CSS, published by GitHub Pages from the root of `master`.
+Personal site for Nick Alexandres. Static HTML and CSS, published by GitHub Pages from the root of `master`.
 
 Custom domain: `alexandr.es` (`CNAME` must stay exactly that).
 
@@ -9,7 +9,7 @@ Custom domain: `alexandr.es` (`CNAME` must stay exactly that).
 One scrolling page, `index.html`, plus `styles.css`:
 
 - **Home** — name, one-liner, short bio, email / LinkedIn / GitHub, current role
-- **Work** — Roku, Riot Games, TuneIn, plus earlier engineering and school
+- **Work** — Roku, Riot Games, and TuneIn, with the strongest results from each role, plus earlier engineering, adjunct teaching, and school
 - **Projects** — public side projects only
 - **Contact** — email, LinkedIn, GitHub
 
